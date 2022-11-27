@@ -1,5 +1,5 @@
 import React from 'react';
-
+import CardWidget from '../CardWidget/CardWidget';
 
 const Navbar = () => {
   return (
@@ -24,15 +24,17 @@ const Navbar = () => {
                         </a>
                         {/* Aca yo quisiera que automáticamente se lean categorias desde un JSON o una Db */}
                         <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a className="dropdown-item" href="index.html">Remeras</a></li>
-                            <li><a className="dropdown-item" href="index.html">Buzos</a></li>
-                            <li><a className="dropdown-item" href="index.html">Camperas</a></li>
+                            <li><a className="dropdown-item" href="index.html">Sala de ensayo</a></li>
+                            <li><a className="dropdown-item" href="index.html">Grabaciones</a></li>
+                            <li><a className="dropdown-item" href="index.html">Clases</a></li>
                         </ul>
                     </li>
                     <li className="nav-item">
                          
                     </li>
                 </ul>
+                
+                <CardWidget />
                 <form className="d-flex">
                 <input className="form-control me-2" type="search" placeholder="Buscar" aria-label="Search"></input>
                 <button className="btn btn-outline-success" type="submit">Buscar</button>

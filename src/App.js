@@ -1,6 +1,5 @@
-
-//import Footer from './components/Footer/Footer';
-import Navbar from './components/NavBar.js';
+import Navbar from './components/NavBar/NavBar.js';
+//import Footer from './components/Footer/Footer.js';
 
 function App() {
   return (
@@ -12,7 +11,7 @@ function App() {
       </header>
 
 
-
+     {/* para despues el footer  */}
     </div>
   );
 }
